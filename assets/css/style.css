@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+img:hover {
+    opacity: 50%;
+}
+
+iframe {
+    border: none;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    width: 30px;
+    border-radius: 0.25rem;
+    border: 1px solid red;
+    color: red;
+}
+
+p:hover {
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+
+#search {
+    padding: .375rem .75rem;
+    margin-top: 15px;
+    line-height: 1.5;
+    min-height: 38px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    border-radius: 0.25rem;
+    /*Supprime la ligne bleu quand on appuie sur le boutton*/
+    outline: none;
+    text-align: left;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#search:hover {
+    background-color: limegreen;
+}
+
+#inputValue {
+    width: 760px;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    min-height: 38px;
+    color: #485057;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    /*Supprime la ligne bleu quand on appuie sur le boutton*/
+    outline: none;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+}
+
+#movies-searchable {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#content-close {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.movie {
+    margin-bottom: 50px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+
+section img {
+    width: 250px;
+    transition: 250ms all;
+}
+
+img:hover {
+    margin-left: 0 40px;
+    /*transform: scale(1.1);*/
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    margin-top: 15px;
+    background-color: rgb(13, 13, 14);
+    border-top: none;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+.content-display {
+    display: block;
+}
