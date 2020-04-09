@@ -8,6 +8,8 @@ body {
     background-color: rgb(33, 33, 33);
     color: white;
     padding: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -149,4 +151,44 @@ img:hover {
 
 .content-display {
     display: block;
+}
+
+footer {
+    background-color: rgb(33, 33, 33);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+footer a {
+    margin-left: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lightsalmon
+}
+
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #inputValue {
+        width: 300px;
+    }
+    section img {
+        width: 100px;
+        transition: 250ms all;
+    }
+    .sectionb {
+        height: 150px;
+    }
 }
